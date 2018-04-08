@@ -83,9 +83,10 @@
             $('.mask .title').text(obj.title);
             obj.des.forEach(function (value,index) {
                 $('<li>').text(value).appendTo($('.mask .des ul'));
-            })
+            });
+            $('.mask-wrap ').show();
         }
-        $('.mask-wrap ').show();
+
     }
 
     function tremulaInit(){
